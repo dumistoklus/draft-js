@@ -25,7 +25,6 @@ const DraftModifier = require('DraftModifier');
 const DraftEntityInstance = require('DraftEntityInstance');
 const EditorState = require('EditorState');
 const KeyBindingUtil = require('KeyBindingUtil');
-const RawDraftContentState = require('RawDraftContentState');
 const RichTextEditorUtil = require('RichTextEditorUtil');
 const SelectionState = require('SelectionState');
 
@@ -50,7 +49,6 @@ const DraftPublic = {
   CharacterMetadata,
   ContentBlock,
   ContentState,
-  RawDraftContentState,
   SelectionState,
 
   AtomicBlockUtils,
